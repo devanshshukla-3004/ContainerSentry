@@ -194,17 +194,6 @@ ContainerSentry currently performs **static configuration analysis**. It does no
 
 Findings should be validated before changing production configurations. Apply remediation in a test environment first and confirm that application functionality is preserved.
 
-## Roadmap
-
-Planned areas for future development:
-
-- More robust Dockerfile parsing and multi-stage build awareness.
-- Improved non-root user analysis to reduce false positives.
-- Source-line reporting for Compose findings.
-- Image digest and image metadata policy checks.
-- SARIF export for code-scanning integrations.
-- Expanded test coverage and additional Compose hardening rules.
-
 ## Responsible use
 
 Use ContainerSentry to assess configurations you own or are explicitly authorized to review. Treat its output as a security-review aid and validate recommendations against your environment.
